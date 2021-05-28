@@ -1,4 +1,5 @@
 # matplotlib图例讲解
+[TOC]
 
 ## 图例说明
 
