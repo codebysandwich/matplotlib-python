@@ -20,7 +20,7 @@ pip install matplotlib
 ## 其他资源
 **matplotlib 中文**
 
-[<img src="https://www.matplotlib.org.cn/logo.svg" width="150px">](https://www.matplotlib.org.cn/)
+<a href="https://www.matplotlib.org.cn/logo.svg"><img src="https://www.matplotlib.org.cn/logo.svg" width="150px"></a>
 
 **matplotlib 官网**
 
