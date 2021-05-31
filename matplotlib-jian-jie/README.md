@@ -20,12 +20,11 @@ pip install matplotlib
 ## 其他资源
 **matplotlib 中文**
 
-<!--<a href="https://www.matplotlib.org.cn/"><img src="https://www.matplotlib.org.cn/logo.svg" width="150px"></a>-->
-[![](https://www.matplotlib.org.cn/logo.svg)](https://www.matplotlib.org.cn/)
+[<img src="https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/logo.png" width="120px">](https://www.matplotlib.org.cn/)
 
 **matplotlib 官网**
 
-[<img src="https://matplotlib.org/_static/logo2_compressed.svg" width="40%">](https://matplotlib.org/)
+[<img src="https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/logo2_compressed.png" width="40%">](https://matplotlib.org/)
 
 **官方GitHub**
 
