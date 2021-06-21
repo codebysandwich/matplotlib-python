@@ -1,5 +1,5 @@
 ---
-description: 本书旨在讲解使用matplotlib的api实现基本绘图
+description: 本书旨在讲解如何使用matplotlib的api实现基本绘图
 ---
 
 # 前言
