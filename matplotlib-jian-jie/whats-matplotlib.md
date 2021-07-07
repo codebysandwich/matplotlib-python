@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 plt.plot([1, 2, 3, 4], [1, 4, 2, 3])
 plt.show()
 ```
-![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/20210601221821.png)
+![](https://gitee.com/codebysandwich/source/raw/master/picgo/line_demo.png)
 
 `matplotlib.pyplot`为matplotlib的绘图接口，常用`plt`简写，本书所有部分均用此导入方式！`plt.show()`为显示调取绘图的结果。
 

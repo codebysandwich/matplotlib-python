@@ -2,4 +2,4 @@
 
 ## 图例说明
 
-![图例](https://matplotlib.org/stable/_images/anatomy.png)
+![](https://gitee.com/codebysandwich/source/raw/master/picgo/anatomy.webp)

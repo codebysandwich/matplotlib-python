@@ -20,7 +20,7 @@ fig, ax = plt.subplots()
 ax.plot(x, data)
 plt.show()
 ```
-![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/line1.png)
+![](https://gitee.com/codebysandwich/source/raw/master/picgo/line1.png)
 
 现在分别绘制两年四个季度的数据并设置绘制的细节：添加图例、设置线型、设置数据点的类型、设置图形大小、设置网格线等。
 ```python
@@ -45,35 +45,35 @@ ax.legend()
 # 调用显示绘制的画布
 plt.show()
 ```
-![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/line2.png)
+![](https://gitee.com/codebysandwich/source/raw/master/picgo/line2.png)
 
 颜色设置可以使用内置参数`green`，也可以使用16进制`#FF4B00`表示。
 
 ## marker样式
-| 标记参数 |                                               图例                                               |
-|:--------:|:------------------------------------------------------------------------------------------------:|
-|     .    |               ![](https://gitee.com/codebysandwich/source/raw/master/picgo/dot.png)              |
-|     o    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/circle.png)     |
-|     v    |  ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_down.png) |
-|     ^    |   ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_up.png)  |
-|     <    |  ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_left.png) |
-|     >    | ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_right.png) |
-|     1    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/tri_down.png)    |
-|     2    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/tri_up.png)     |
-|     3    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/tri_left.png)    |
-|     4    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/tri_right.png)   |
-|     8    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/octagon.png)    |
-|     s    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/square.png)     |
-|     p    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/pentagon.png)    |
-|     *    |      ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/star.png)      |
-|     h    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/hexagon1.png)    |
-|     H    |    ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/hexagon2.png)    |
-|     +    |      ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/plus.png)      |
-|     x    |        ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/X.png)       |
-|     D    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/diamond.png)    |
-|     d    |  ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/thin_diamond.png)  |
+| 标记参数 |                                       图例                                       |
+|:--------:|:--------------------------------------------------------------------------------:|
+|     .    |       ![](https://gitee.com/codebysandwich/source/raw/master/picgo/dot.png)      |
+|     o    |     ![](https://gitee.com/codebysandwich/source/raw/master/picgo/circle.png)     |
+|     v    |  ![](https://gitee.com/codebysandwich/source/raw/master/picgo/triangle_down.png) |
+|     ^    |   ![](https://gitee.com/codebysandwich/source/raw/master/picgo/triangle_up.png)  |
+|     <    |  ![](https://gitee.com/codebysandwich/source/raw/master/picgo/triangle_left.png) |
+|     >    | ![](https://gitee.com/codebysandwich/source/raw/master/picgo/triangle_right.png) |
+|     1    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/tri_down.png)    |
+|     2    |     ![](https://gitee.com/codebysandwich/source/raw/master/picgo/tri_up.png)     |
+|     3    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/tri_left.png)    |
+|     4    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/tri_right.png)   |
+|     8    |     ![](https://gitee.com/codebysandwich/source/raw/master/picgo/octagon.png)    |
+|     s    |     ![](https://gitee.com/codebysandwich/source/raw/master/picgo/square.png)     |
+|     p    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/pentagon.png)    |
+|     *    |      ![](https://gitee.com/codebysandwich/source/raw/master/picgo/star.png)      |
+|     h    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/hexagon1.png)    |
+|     H    |    ![](https://gitee.com/codebysandwich/source/raw/master/picgo/hexagon2.png)    |
+|     +    |      ![](https://gitee.com/codebysandwich/source/raw/master/picgo/plus.png)      |
+|     x    |        ![](https://gitee.com/codebysandwich/source/raw/master/picgo/x.png)       |
+|     D    |     ![](https://gitee.com/codebysandwich/source/raw/master/picgo/diamond.png)    |
+|     d    |  ![](https://gitee.com/codebysandwich/source/raw/master/picgo/thin_diamond.png)  |
 
-这里就不一一展示了，下面列出官网的映射关系：
+为了展示清楚一些,标记用了橙色。这里就不一一展示了，下面列出官网的映射关系：
 ```
 {'.': 'point', ',': 'pixel', 'o': 'circle', 'v': 'triangle_down', '^': 'triangle_up', '<': 'triangle_left', '>': 'triangle_right', 
 '1': 'tri_down', '2': 'tri_up', '3': 'tri_left', '4': 'tri_right', '8': 'octagon', 's': 'square', 'p': 'pentagon', '*': 'star',
