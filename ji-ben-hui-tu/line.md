@@ -52,7 +52,7 @@ plt.show()
 ## marker样式
 | 标记参数 |                                               图例                                               |
 |:--------:|:------------------------------------------------------------------------------------------------:|
-|     .    |       ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/dot.png)      |
+|     .    |               ![](https://gitee.com/codebysandwich/source/raw/master/picgo/dot.png)              |
 |     o    |     ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/circle.png)     |
 |     v    |  ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_down.png) |
 |     ^    |   ![](https://raw.githubusercontent.com/codebysandwich/sourcerepos/master/pics/triangle_up.png)  |
